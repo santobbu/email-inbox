@@ -1,0 +1,85 @@
+.EmailItem {
+    padding: 12px 6px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #F8F8F8;
+    }
+
+    &--selected {
+        background-color: #F8F8F8;
+    }
+
+    .ficon {
+        margin: 0 4px;
+    }
+
+    &__Content {
+        line-height: 16px;
+    }
+
+    &__Subject {
+        display: inline-block;
+        width: calc(100% - 100px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 790px;
+        font-weight: 500;
+    }
+
+    &__Time {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+    }
+
+    &__Body {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 900px;
+    }
+
+    &__Name {
+        display: inline-block;
+        width: calc(100% - 200px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 690px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    &__Action {
+        display: inline-block;
+        width: 200px;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    .ant-avatar {
+        font-size: 12px;
+        
+        &--blue {
+            background-color: blue;
+        }
+
+        &--pink {
+            background-color: pink;
+        }
+
+        &--green {
+            background-color: green;
+        }
+
+        &--brown {
+            background-color: #A52A2A;
+        }
+
+        &--skyBlue {
+            background-color: #00BFFF;
+        }
+    }
+}

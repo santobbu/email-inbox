@@ -1,0 +1,35 @@
+.Inbox {
+    &__Header {
+        padding: 8px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    &__LeftContent {
+        width: 50%;
+        display: inline-block;
+        font-weight: 700;
+    }
+
+    &__RightContent {
+        width: 50%;
+        display: inline-block;
+        text-align: right;
+        color: #1E90FF;
+        padding-right: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    &__Arrow {
+        border: solid #1E90FF;
+        border-width: 0px 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        margin: 0 0 2px 8px;
+        cursor: pointer;
+
+        &--down {
+            transform: rotate(45deg);
+        }
+    }
+}
