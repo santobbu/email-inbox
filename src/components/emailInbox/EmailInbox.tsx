@@ -26,7 +26,7 @@ class EmailInbox extends React.Component<Props, State> {
     } 
 
     componentDidMount = () => {
-        fetch("http://localhost:3001/api/email")
+        fetch("/api/email")
           .then(res => res.json())
           .then(
             (result) => {
