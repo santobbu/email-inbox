@@ -48,6 +48,10 @@ const EmailItem: React.FC<Props> = React.memo(props => {
     }
 
     const getAvatar = () => {
+        if (props.isSelected) {
+            return <i className="icofont-check-circled"></i>;
+        }
+
         var matches = props.from.name.match(/\b(\w)/g);
         var acronym = matches && matches.join('').slice(0, 2);
 
@@ -56,11 +60,14 @@ const EmailItem: React.FC<Props> = React.memo(props => {
         );
     }
 
+    const avatarClass = `ant-avatar--${props.color}`;
+    const selectedAvatar = props.isSelected ? 'ant-avatar--selected' : '';
+
     return (
         <List.Item className={`EmailItem ${props.isSelected ? 'EmailItem--selected' : ''}`} onClick={onItemClick}>
             <List.Item.Meta
                 avatar={
-                    <Avatar children={getAvatar()} className={`ant-avatar--${props.color}`}/>
+                    <Avatar children={getAvatar()} className={`${avatarClass} ${selectedAvatar}`}/>
                 }
                 description={renderItemContent()}
             />

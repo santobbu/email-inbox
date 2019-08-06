@@ -16,6 +16,7 @@
 
     &__Content {
         line-height: 16px;
+        color: rgba(0, 0, 0, 0.6);
     }
 
     &__Subject {
@@ -38,7 +39,8 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        max-width: 900px;
+        max-width: 870px;
+        width: calc(100% - 30px);
     }
 
     &__Name {
@@ -61,7 +63,7 @@
 
     .ant-avatar {
         font-size: 12px;
-        
+
         &--blue {
             background-color: blue;
         }
@@ -80,6 +82,12 @@
 
         &--skyBlue {
             background-color: #00BFFF;
+        }
+
+        &--selected {
+            background-color: transparent;
+            color: gray;
+            font-size: 24px;
         }
     }
 }

@@ -41,6 +41,7 @@ class EmailList extends React.Component<Props, State> {
 
         return (
             <List
+                className="Inbox__Content"
                 dataSource={this.props.data}
                 renderItem={(item, index) => (
                     <EmailItem key={index} 
@@ -48,7 +49,7 @@ class EmailList extends React.Component<Props, State> {
                         index={index}
                         onItemClick={this.onItemClick}
                         isSelected={this.isSelectedItem(index)}
-                        color={this.colorsList[index]}
+                        color={this.getItemColor(index)}
                     /> 
                 )}
             />
@@ -63,6 +64,11 @@ class EmailList extends React.Component<Props, State> {
   
     private isSelectedItem = (index: number): boolean => {
         return this.state.selectedIndex === index;
+    }
+
+    private getItemColor = (index: number) => {
+        var number = index % this.colorsList.length;
+        return this.colorsList[number];
     }
 
     public render() {

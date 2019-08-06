@@ -63,5 +63,37 @@
         "subject": "Following Harry Maguire’s £80m move to Man United, Leicester are now working hard on finding his replacement.",
         "body": "We have been told the King Power outfit would like to offer a part exchange deal involving winger Rachid Ghezzall, who's struggled for form and game time since joining from Monaco last summer.",
         "time": "04:00"
-    } 
+    }, {
+        "from": {
+            "name": "Kashmir in lockdown",
+            "email": "user05@scb.com"
+        },
+        "subject": "Kashmir in lockdown after autonomy scrapped",
+        "body": "Telephone networks and the internet, which were cut off on Sunday evening, are yet to be restored and tens of thousands of troops are patrolling the streets. Instances of protest and stone-throwing have been reported despite the communications blackout and a curfew. Local leaders have also been detained.",
+        "time": "01:50"
+    }, {
+        "from": {
+            "name": "Thousands of years ago",
+            "email": "user06@scb.com"
+        },
+        "subject": "Thousands of years ago, people were performing a form of surgery called trepanation that involves boring holes through a person's skull",
+        "body": "For a large part of human prehistory, people around the world practised trepanation: a crude surgical procedure that involves forming a hole in the skull of a living person by either drilling, cutting or scraping away layers of bone with a sharp implement.",
+        "time": "01:40"
+    }, {
+        "from": {
+            "name": "Why your ‘type’ might actually be your ex-partner",
+            "email": "user07@scb.com"
+        },
+        "subject": "Our romantic partners may be riddled with flaws but do our own biases mean we overlook these, even if there are better options on offer elsewhere",
+        "body": "Love blinds us to the realities of the people around us. In one study, participants in relationships were asked to write about recent romantic moments, or random events, that they had shared with their partner after being shown a photo of an attractive stranger. While writing down their story, they ticked a box every time their thoughts drifted back to the photo of the stranger. The participants who wrote about romantic anecdotes ticked the box one-sixth as often as the group who wrote about random events. It seems that we are much less likely to be distracted by attractive alternatives while concentrating on the things we love about our partner.",
+        "time": "01:30"
+    }, {
+        "from": {
+            "name": "The trick that makes you overspend",
+            "email": "user08@scb.com"
+        },
+        "subject": "Employing the “decoy effect” could bend others to your will, improve your finances, and more.",
+        "body": "When you buy a cup of coffee, you might have noticed that of the three size options – small, medium and large – the medium-sized serving often costs almost as much as the large. Given the apparent bargain, have you ever opted for the biggest and most expensive option?",
+        "time": "01:20"
+    }
 ]}
