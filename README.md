@@ -20,6 +20,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `yarn build`
 
 visit [https://santobmail.netlify.com/](https://santobmail.netlify.com) to view it on live
+Remark: since cannot deploy react with server on netlify so there will no data return from server
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
